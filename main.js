@@ -23,19 +23,24 @@ $(document).ready(function() {
     {id:4, question: 'How do you find an array index in jquery?', ans:'Use Array.findIndex' },
     {id:5, question: 'Who is the tough teacher?', ans: 'Dave'}
   ]
-  //use Array.findIndex for editing? hmm
 
-// insert first hash item question and answer into the inner grid 
-//container #flash_card....
-//thinking .innerHTML and append() here as well
 
-  //move to next card- but first I need to get the 1st one to display!
-var cardIndex = 0;
+  //now for next button or refresh to next item in array?
+  //it worked!!  But need to hide the answer...
+  var cardIndex = 0;
   $(document).ready(function () 
  { 
  $('#next').click(function nextCard()
   {
     cardIndex = (cardIndex == qanda.length-1) ? 0 : cardIndex+1;
-    
+    $('#question').text(qanda[cardIndex].question);
+     $('#answer').text(qanda[cardIndex].ans);
+     $('#answer').hide();
     })
+    
 })
+  //use Array.findIndex for editing? hmm
+
+
+
+  //move to next card- but first I need to get the 1st one to display!

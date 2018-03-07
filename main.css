@@ -56,9 +56,9 @@ body
    
 }
 
-#answer
+#answer, #answer-bin
 {
-  display: none;
+  display: hidden;
   
 }
 #answer,
@@ -80,7 +80,8 @@ body
 .btn1,
 .btn2,
 .btn3,
-.btn4
+.btn4,
+#next
 {
   width: 200px;
   border: 1px solid black;
@@ -110,6 +111,13 @@ body
 {
   background-color: royalblue;
   color: white;
+
+}
+
+#next
+{
+  background-color: green; 
+  color: wheat;
 
 }
 .btn1:hover
