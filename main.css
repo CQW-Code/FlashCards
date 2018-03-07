@@ -1,0 +1,136 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body
+{
+ 
+  background-color: rgb(178, 230, 178);
+}
+
+
+.headline
+{
+  text-align:center;
+  background-color: green;
+  color: wheat;
+}
+
+.headline2
+{
+  text-align:center;
+  font-size: 32px;
+  color: darkgreen;
+}
+
+
+
+.grid-container
+{
+    background-color: darkgreen;
+    color: wheat;
+    width: 1000px;
+    height:400px;
+    margin-left:250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+#flash_card
+{
+  font-size: 32px;
+  text-decoration: bold;
+   height: 300px;
+   width:900px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   
+   
+}
+
+#answer
+{
+  display: none;
+  
+}
+#answer,
+#question
+{
+  text-align: center;
+}
+
+#ask, #answer-bin
+{
+}
+
+.buttons
+{
+  margin-left: 250px;
+  
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4
+{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: bold;
+  padding: 12px 28px;
+  transition-duration: 0.5s;
+}
+
+.btn1 /*see answer*/
+{
+  background-color: wheat;
+    color: darkgreen;
+    
+}
+
+.btn2 /* add */
+{
+   background-color: rgb(173, 132, 173);
+    color: black;
+}
+
+
+.btn3 /*edit*/
+{
+  background-color: royalblue;
+  color: white;
+
+}
+.btn1:hover
+{
+  background-color: rgb(186, 233, 186);
+}
+
+.btn2:hover
+{
+  background-color:purple;
+}
+
+.btn3:hover
+{
+  background-color: lightblue;
+}
+
+.btn4:hover
+{
+  background-color:rgb(245, 161, 161);
+}
+
+
+
